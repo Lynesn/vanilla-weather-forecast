@@ -60,12 +60,7 @@ li:first-letter {
 .weather-temperature .active {
     text-decoration: none;
 }
-/* small {
-    /* color: white; */
-/* } */
-/* .units {
-    color: wheat;
-} */
+
 .weather-forecast {
     margin-top: 20px;
     text-align: center;
