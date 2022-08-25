@@ -89,34 +89,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
-// function displayFahrenheitTemperature(event) {
-//   event.preventDefault();
-//   //removing active class from fah link
-//   cel.classList.remove("active");
-//   fah.classList.add("active");
-//   let temperatureElement = document.querySelector("#temperature");
-//   let fahTemperature = (celsiusTemp * 9) / 5 + 32;
-//   temperatureElement.innerHTML = Math.round(fahTemperature);
-// }
-
-// function displayCelsiusTemperature(event) {
-//   event.preventDefault();
-//   cel.classList.add("active");
-//   fah.classList.remove("active");
-//   let temperatureElement = document.querySelector("#temperature");
-//   temperatureElement.innerHTML = Math.round(celsiusTemp);
-// }
-// let celsiusTemp = null;
-
-
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
-
-// let fah = document.querySelector("#fah-link");
-// fah.addEventListener("click", displayFahrenheitTemperature);
-
-// let cel = document.querySelector("#cel-link");
-// cel.addEventListener("click", displayCelsiusTemperature);
 
 search("Kampala");
